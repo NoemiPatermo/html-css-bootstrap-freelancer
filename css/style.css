@@ -41,7 +41,7 @@ article div:first-child{
     border: 2px solid black;
 }
 
-.row-about .box{
+.row-about div{
     display: flex;
    height: 150px;
    border: 2px solid cornsilk;
