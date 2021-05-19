@@ -11,7 +11,33 @@
 </head>
 <body>
     <div class="container-fluid">
-        <nav class="row"></nav>
+        <div class="row">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Top navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                     
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+            </nav>
+        </div>
             <header class="row">
                 <div class="col header-content">
                     <img src="./img/avatar.svg" alt="avatar">
@@ -58,8 +84,8 @@
                 </div>    
         </main>
     </div>
-
-    <div class="article-container">
+<!--CREA DIV ARTICLE CONTENT PER METTERE DENTRO H1 STELLINA-->
+    <div class="article-container p-5">
         <article class="row">
             <h1>ABOUT</h1>
             <div class="star">
@@ -75,12 +101,36 @@
                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur consequuntur possimus quos quia. Illum ut laudantium aspernatur, delectus repudiandae dignissimos quam. Iusto aut omnis dolorum mollitia tenetur necessitatibus, autem quaerat.
                        </div>
                    </div>
-               </div>
+                   <div style="text-align: center">
+                   <button type="button" class="btn btn-primary">Download</button>
+                   </div>
+               </div>     
            </div>
         </article>
     </div>
 
-
+    <section>
+    <div class="section-container">
+        <div class="row">
+            <div class="col-10 offset-1 col-md-8 offset-md-2 col-lg-10 offset-lg-1">
+                <h1>CONTACT ME</h1>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                </div>
+                <form class="contact-input">
+                    <input placeholder="Name" type="text">
+                    <hr>
+                    <input placeholder="Name" type="text">
+                    <hr>
+                    <input placeholder="Name" type="text">
+                    <hr>
+                    <input type="text-area">
+                    <hr>
+                </form>
+            </div>
+        </div>
+    </div>
+    </section>
 
 
 
