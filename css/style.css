@@ -64,7 +64,16 @@ header img{
 }
 .article-container{
     background-color: #19bc9b;
-    height: 200px;
+    
+}
+.ab{
+    background-color: #19bc9b;
+}
+article h1{
+    text-align: center;
+}
+article .star{
+    text-align: center;
 }
 /*
 
