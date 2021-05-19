@@ -36,13 +36,33 @@ header img{
     text-align: center;
     margin-top: 50px;
 }
- 
-.colored{
-    height: 200px;
-    background-color: tomato;
-    margin-bottom: 24px;
-}
 
+[class*=main-content]{
+    height: 250px;
+    margin-bottom: 24px;
+    background-size: cover;
+    background-position:center;
+    border-radius: 10px;
+}
+.main-content-1{
+    background-image: url(../img/cabin.png);
+}
+.main-content-2{
+    background-image: url(../img/cake.png);
+}
+.main-content-3{
+    background-image: url(../img/circus.png);
+}
+.main-content-4{
+    background-image: url(../img/game.png);
+}
+.main-content-5{
+    background-image: url(../img/safe.png);
+}
+.main-content-6{
+    background-image: url(../img/submarine.png);
+}
+/*
 
 article{
     background-color: teal;
