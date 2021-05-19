@@ -38,7 +38,7 @@ header img{
 }
 
 [class*=main-content]{
-    height: 250px;
+    height: 280px;
     margin-bottom: 24px;
     background-size: cover;
     background-position:center;
