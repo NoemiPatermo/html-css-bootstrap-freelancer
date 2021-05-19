@@ -29,7 +29,7 @@ header h1{
 
 .main-description{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 [class*=main-content]{
@@ -70,10 +70,13 @@ article h1{
 article .star{
     text-align: center;
 }
-
-.section-container{
-   
+.download{
+    text-align: center;
 }
-section .ab{
-    border: 3px solid green;
+.section-content{
+    text-align: center;
+}
+.contact{
+    border: none;
+    width: 100%;
 }
