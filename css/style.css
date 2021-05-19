@@ -3,10 +3,23 @@ nav{
     background-color: black;
     height: 80px;
 }
-header{
-    background-color: darkgrey;
-    height: 400px;
+.container-fluid{
+    background-color: #19bc9b;
 }
+.header-content{
+    text-align: center;
+    margin: 50px;
+    color: white;
+}
+header img{
+    height: 150px;
+}
+header h1{
+    font-weight:bold;
+    
+}
+
+/*
 header > div{
     border: 3px solid white;
     height: 300px;
@@ -18,20 +31,18 @@ header img{
     height: 50px;
     border-radius: 50px;   
 }
-main{
-    height: 600px;
-}
-main div:first-child{
-    border: 2px solid indigo;
-}
- h1{
+*/
+.main-description{
     text-align: center;
+    margin-top: 50px;
+}
+ 
+.colored{
+    height: 200px;
+    background-color: tomato;
+    margin-bottom: 24px;
 }
 
-main .row div{
-    height: 150px;
-    border: 2px solid black;
-}
 
 article{
     background-color: teal;
