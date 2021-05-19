@@ -29,7 +29,7 @@ header h1{
 
 .main-description{
     text-align: center;
-    margin-top: 40px;
+    margin: 20px;
 }
 
 [class*=main-content]{
@@ -72,11 +72,22 @@ article .star{
 }
 .download{
     text-align: center;
+    margin: 60px;
 }
 .section-content{
     text-align: center;
 }
 .contact{
     border: none;
-    width: 100%;
+}
+footer{
+    background-color: darkgrey;
+    margin: 20px;
+}
+.footer-copyright{
+    background-color: black;
+}
+.footer-copyright p{
+    color:cornsilk;
+    text-align: center;
 }
