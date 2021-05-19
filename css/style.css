@@ -35,16 +35,17 @@ main .row div{
 
 article{
     background-color: teal;
-    
+    text-align: center;
 }
-article div:first-child{
+article div{
     border: 2px solid black;
 }
 
-.row-about div{
+.row-about  {
     display: flex;
-   height: 150px;
-   border: 2px solid cornsilk;
+    justify-content: center;
+    height: 150px;
+    border: 2px solid cornsilk;
   
 }
 section{
