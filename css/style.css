@@ -89,7 +89,7 @@ article .star{
     border: none;
 }
 footer{
-    background-color: #141922;
+    background-color:darkgrey;
     margin: 20px;
 }
 .footer-icons{
@@ -97,7 +97,7 @@ footer{
 }
     
 .footer-copyright{
-    background-color: black;
+    background-color:#141922;
 }
 .footer-copyright p{
     color:cornsilk;
